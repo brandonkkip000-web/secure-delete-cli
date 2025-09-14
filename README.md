@@ -1,15 +1,9 @@
-﻿# secure-delete-cli
+﻿# Secure Delete CLI
 
-CLI tool to securely delete files by overwriting with random data.
+A command-line tool to securely delete files by overwriting their data, preventing recovery.
 
 ## Installation
-`ash
-pip install .
-
-Usage
-
-secure-delete-cli delete <file>
-
-License
-
-MIT License
+```bash
+git clone https://github.com/brandonkkip000-web/secure-delete-cli.git
+cd secure-delete-cli
+pip install -r requirements.txt
